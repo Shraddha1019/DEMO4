@@ -1,0 +1,187 @@
+# Python dictionary operations or methods questions for practice:
+# Create an empty dictionary called my_dict.
+my_dict={" "}
+print(my_dict)
+#output : {' '}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to get the
+# value associated with the key 'age'.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+print(my_dict.get("age"))
+#output : 25
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to add a
+# new key-value pair 'occupation': 'Engineer' to the dictionary.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+my_dict.setdefault("occupation","engineer")
+print(my_dict)
+#output : {'name': 'John', 'age': 25, 'city': 'New York', 'occupation': 'engineer'}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to remove
+# the key 'city' and its associated value from the dictionary.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+my_dict.pop("city")
+print(my_dict)
+#output : {'name': 'John', 'age': 25}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to get a list
+# of all the keys in the dictionary.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+keys = my_dict.keys()
+print(keys)
+#output : dict_keys(['name', 'age', 'city'])
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to check if
+# the key 'name' exists in the dictionary.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+print(my_dict.get("name"))
+#output : John
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to get the
+# number of key-value pairs in the dictionary.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+items = my_dict.items()
+print(items)
+#output : dict_items([('name', 'John'), ('age', 25), ('city', 'New York')])
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to update
+# the value associated with the key 'age' to 30.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+my_dict.update({"age":30})
+print(my_dict)
+#output : {'name': 'John', 'age': 30, 'city': 'New York'}
+
+# Given a dictionary my_dict = {'name': 'John','age': 25,'city' : 'New York'}, use a method to get a list
+# of all the values in the dictionary.
+my_dict = {'name': 'John','age': 25,'city' : 'New York'}
+values = my_dict.values()
+print(values)
+#output : dict_values(['John', 25, 'New York'])
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to clear all
+# the key-value pairs from the dictionary.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+my_dict.clear()
+print(my_dict)
+#output : {}
+
+# Given two dictionaries dict1 = {'a': 1, 'b': 2} and dict2 = {'c': 3, 'd': 4}, use a method to merge them
+# into a single dictionary.
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'c': 3, 'd': 4}
+
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to get a list
+# of tuples containing key-value pairs.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+items = my_dict.items()
+print(items)
+#output : dict_items([('name', 'John'), ('age', 25), ('city', 'New York')])
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to get a list
+# of all the keys sorted in alphabetical order.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to get a list
+# of all the values sorted in ascending order.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to create a
+# new dictionary with only the key-value pairs where the value is greater than 20.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to remove a
+# specific key-value pair from the dictionary.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+my_dict.pop("city")
+print(my_dict)
+#output : {'name': 'John', 'age': 25}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to get the
+# value associated with a specific key and provide a default value if the key is not present.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+print(my_dict.get("name"))
+#output : John
+my_dict.setdefault("earth","moon")
+print(my_dict)
+#output : {'name': 'John', 'age': 25, 'city': 'New York', 'earth': 'moon'}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to create a
+# new dictionary with only the key-value pairs where the key starts with the letter 'a'.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to check if
+# all the keys are unique in the dictionary.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+
+# Given a dictionary my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}, use a method to iterate
+# over the key-value pairs and print them.
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+
+
+
+
+# 7. Python set operations or methods questions for practice:
+# Create an empty set called my_set.
+my_set = {" "}
+print(my_set)
+#output : {' '}
+
+# Given a set my_set = {1, 2, 3, 4, 5}, use a method to add the element 6 to the set.
+my_set = {1, 2, 3, 4, 5}
+my_set.add(6)
+print(my_set)
+#output : {1, 2, 3, 4, 5, 6}
+
+# Given two sets set1 = {1, 2, 3} and set2 = {3, 4, 5}, use a method to find the intersection of the two
+# sets.
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+my_set = set1.intersection(set2)
+print(my_set)
+#output : {3}
+
+# Given two sets set1 = {1, 2, 3} and set2 = {3, 4, 5}, use a method to find the union of the two sets.
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+my_set = set1.union(set2)
+print(my_set)
+#output : {1, 2, 3, 4, 5}
+
+# Given a set my_set = {1, 2, 3, 4, 5}, use a method to remove the element 4 from the set.
+my_set = {1, 2, 3, 4, 5}
+my_set.remove(4)
+print(my_set)
+#output : {1,2,3,5}
+
+# Given two sets set1 = {1, 2, 3} and set2 = {3, 4, 5}, use a method to find the difference between
+# the two sets.
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+my_set = set1.difference(set2)
+print(my_set)
+#output : {1,2}
+
+# Given a set my_set = {1, 2, 3, 4, 5}, use a method to check if it contains the element 3.
+my_set = {1, 2, 3, 4,5}
+
+
+# Given a set my_set = {1, 2, 3, 4, 5}, use a method to get the length of the set.
+my_set = {1, 2, 3, 4, 5}
+print(len(my_set))
+#output : 5
+
+# Given two sets set1 = {1, 2, 3} and set2 = {3, 4, 5}, use a method to check if set1 is a subset of
+# set2.
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+my_set = set1.issubset(set2)
+print(my_set)
+#output : False
+
+#  Given a set my_set = {1, 2, 3, 4, 5}, use a method to clear all the elements from the set.
+my_set = {1, 2, 3, 4, 5}
+my_set.clear()
+print(my_set)
+#output : set()
